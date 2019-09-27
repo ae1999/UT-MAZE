@@ -30,7 +30,7 @@ class AllUsers extends Component {
       <div className='masterhead-background'>
         {/* <h1 className='text-white text-center'>Admin</h1> */}
         <br/>
-        <div className='admin-scroll-y'>{usersList}{usersList}</div>
+        <div className='admin-scroll-y'>{usersList}</div>
       </div>
     )
   }
