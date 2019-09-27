@@ -7,7 +7,7 @@ const PrivateRoute = ({ component: Component, auth, ...rest }) => (
   <Route
     {...rest}
     render={props =>
-      auth.user.email === 'admin@rojano.com' ? (
+      auth.user.email === 'admin@maze.com' ? (
         <Component {...props} />
       ) : (
         <Redirect to="/login" />
