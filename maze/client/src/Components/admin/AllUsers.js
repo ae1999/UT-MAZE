@@ -14,29 +14,23 @@ class AllUsers extends Component {
     if (users !== null || users !== undefined) {
       if (users.length > 0) {
         usersList = users.map(user => (
-        <div className="dashboardCourseCards text-white cardBackgroundColor card text-center">
-          <div className="card-header">
-            <h1>user-name: {user.name}</h1>
-          </div>
-          <div className="card-body">
+        <div className="card text-center admin-card margin-top-admin">
+          <div className="card-body card-admin-background">
+            <h5 className="card-title">name: {user.name}</h5>
             <h5 className="card-title">email: {user.email}</h5>
-            <h5 className="card-title">state: {user.state}</h5>
-            <h5 className="card-title">Phone-number: {user.phoneNumber}</h5>
-            <h5 className="card-title">home-Number: {user.homeNumber}</h5>
-            <h5 className="card-title">grade: {user.grade}</h5>
+            <h5 className="card-title">sID: {user.sID}</h5>
             <h5 className="card-title">field: {user.field}</h5>
             <h5 className="card-title">register date: {user.date}</h5>
-            <h5 className="card-title">courses: {user.enroledCources.length}</h5>
           </div>
         </div>
         ));
       }
     }
     return (
-      <div className='darkBackgroud'>
-        <h1 className='text-white text-center'>Admin</h1>
+      <div className='masterhead-background'>
+        {/* <h1 className='text-white text-center'>Admin</h1> */}
         <br/>
-        {usersList}
+        <div className='admin-scroll-y'>{usersList}{usersList}</div>
       </div>
     )
   }
