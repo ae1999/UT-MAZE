@@ -13,9 +13,10 @@ start server and client separately.```'npm start'```
 3. MongoDB confing: server/config/keys.js
 
 ## To Deploy:
-1. run ```'npm run build'``` in the client folder to create the buld folder.
-2. move the contents to maze/server/www
-3. then you can put the server folder on VPS
+1. Run ```'npm run build'``` in the client folder to create the buld folder.
+2. Move the contents to maze/server/www
+3. Then you can put the server folder on VPS.
+4. Use Pm2 to run the app.
 
 * install mongoDB on vps, add database and database user and match them with server/config/keys.js
 <a href="https://www.digitalocean.com/community/tutorials/how-to-integrate-mongodb-with-your-node-application">article</a>
