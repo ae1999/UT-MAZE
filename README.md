@@ -20,5 +20,5 @@ start server and client separately.```'npm start'```
 *install mongoDB on vps, add database and database user and match them with server/config/keys.js
 <a href="https://www.digitalocean.com/community/tutorials/how-to-integrate-mongodb-with-your-node-application">article</a>
 
-##How to deploy a mern app on VPS?
+## How to deploy a mern app on VPS?
 <a href="https://github.com/tabvn/nodejs-reactjs-chatapp/blob/master/deployment-to-digitalocean-hosting.md">article</a>
